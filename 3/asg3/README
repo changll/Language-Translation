@@ -1,0 +1,30 @@
+Name: lichao xu
+
+Clemson Email Address: lichao@g.clemson.edu
+
+Project no: 3
+
+Project due date: 8 AM, Friday, Oct 13, 2017
+
+Project description: 
+    Use Bison, the parser generator to compute cyclomatic complexity for
+    each function in a Python program. Print the complexity measure
+    as a three tuple including (1) the line number of the beginning of the
+    function (2) the name of the function and (3) the cyclomatic complexity
+    of the function. Plus a README.
+
+The easiest part of this project: 
+    Get the line number of the beginning of the function and the name of 
+    the function.
+
+Problems that I had in completing this project: 
+    (1) When computing the complexity, I made some mistakes on where I need
+    to plus complexity or reset the complexity. Especially the statement of
+    try, except, else and finally, I am confused about the mccabe 
+    complexity at the beginning. Finally, I found a solution, before I come
+     into the try statement, I record the complexity, and then if I find 
+     the word 'finally', come back to the record, if not, continue to 
+     compute the complexity.
+    (2)the output order that executed with mccabe module seems wired. It's 
+    not sorted by the complexity, but the name of the function. So the order
+    of the results do not match at the beginning.

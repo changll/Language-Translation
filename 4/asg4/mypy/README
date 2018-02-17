@@ -1,0 +1,26 @@
+Name: lichao xu
+
+Clemson Email Address: lichao@g.clemson.edu
+
+Project no: 4
+
+Project due date: 8 AM, Monday, Nov 13, 2017
+
+Project description: 
+    Use Mypy to implement an Abstract Syntax Tree(AST) to represent and interpret
+    the python code.
+    We handled integer and float values and various expression such as x+y,
+    x-y, x*y, x/y, x//y, x%y, x**y, -x, --x, ---x, +x, (x).
+    In addition, we implemented several forms of assignment: x+=y, x-=y, 
+    x*=y, x/=y, x**=y, x//=y, x%=y.
+
+The easiest part of this project: 
+    To calculate the PLUS MINUS MULT DIVISION with the class Node and Literal
+    that professor supplied.
+
+Problems that I had in completing this project: 
+    (1)the expressions -1/2-1/2 and -1/2+(-1/2) cost me much time and the ----x.
+    then I compared the int and float division to decide the floor. And create a Literal
+    0 to minus the node x.
+    (2) the segment fault and termination with unexpected type  happened many times 
+    and it always caused by the type definition in the parse.y.

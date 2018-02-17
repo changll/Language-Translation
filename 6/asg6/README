@@ -1,0 +1,23 @@
+Name: lichao xu
+
+Clemson Email Address: lichao@g.clemson.edu
+
+Project no: 6
+
+Project due date: 3:30 PM, Wednesday, Dec 13, 2017
+
+Project description: 
+    Final project must be able to translate constructs from the previous project.
+    For this project, we need to translate Python parameters including actual
+    parameters and formal parameters.
+    Also, we must implement recursion.
+
+The easiest part of this project: 
+    Translate the constructs from the previous project.
+    Translate Python parameters.
+
+Problems that I had in completing this project: 
+    At first, I have no idea how to pass the arguments to parameters,
+    then I created a paraNode and ArgNode to get the value in the parse.y
+    which both have vectors to store parameters.
+

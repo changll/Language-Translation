@@ -1,0 +1,26 @@
+Name: lichao xu
+
+Clemson Email Address: lichao@g.clemson.edu
+
+Project no: 5
+
+Project due date: 8 AM, Friday, Dec 8, 2017
+
+Project description: 
+    Use Mypy to translate Python functions including scope resolution and 
+    return value propagation.
+    In addition, we need to translate if/else statements and also translate 
+    the relational operators: < , > , <= , >= , == , !=.
+
+The easiest part of this project: 
+    The easiest part of this project is to translate the six relational operators.
+    We have experience to do this based on arithmetic operators in the previous project.
+
+Problems that I had in completing this project: 
+    (1) Segment Fault shows several times, I didn't notice that there may be null pointer 
+    evaluating the value;  after judge  the pointer, there are no segment fault.
+    (2) About the return node and the scope resolution, I just jump out the current scope
+    at first, and then I don't consider the if/else scope and when I met return, I jump out the
+    function according to the symbol table.
+    (3) For the None. I created a none literal class, when there is only return, and no node
+    followed, I insert the symbol with the return and a Noneliteral pointer.
